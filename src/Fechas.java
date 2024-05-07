@@ -17,6 +17,8 @@ public class Fechas {
                 int mes2=Integer.parseInt(fecha2.substring(3,5));
                 int anho2=Integer.parseInt(fecha2.substring(6));
 
+
+        //Opcion N:1
         if(anho1<anho2){
             System.out.println("persona 1 es mayor");
         }
@@ -34,6 +36,17 @@ public class Fechas {
             System.out.println("persona 1 es mayor");
         else if(anho1==anho2  && mes1==mes2  && dia1>dia2)
             System.out.println("persona 2 es mayor");
+
+        //Opcion N:2
+
+        /*if(anho1<anho2 || (anho1==anho2  && mes1<mes2)||(anho1==anho2  && mes1==mes2  && dia1<dia2)) {
+            System.out.println("persona 1 es mayor");
+            }
+        else if(anho1==anho2  && mes1==mes2 && dia1==dia2){
+                System.out.println("tienen la misma edad");}
+
+        else {System.out.println("persona 2 es mayor");}*/
+
 
 
     }
